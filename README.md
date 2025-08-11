@@ -18,10 +18,10 @@ The first example is `vectorAdd.cu`, which performs vector addition on the GPU.
     %cd YOUR_REPO
     ```
 
-5. !nvcc -arch=sm_75 -gencode arch=compute_75,code=compute_75 vectorAdd.cu -o vectorAdd
+5. !nvcc -arch=sm_75 -gencode arch=compute_75,code=compute_75 filename.cu -o filename
 
 6. Compile and run:
     ```bash
-    !./vectorAdd
+    !./filename
     ```
 
