@@ -22,7 +22,6 @@ The first example is `vectorAdd.cu`, which performs vector addition on the GPU.
 
 6. Compile and run:
     ```bash
-    !nvcc vectorAdd.cu -o vectorAdd
     !./vectorAdd
     ```
 
